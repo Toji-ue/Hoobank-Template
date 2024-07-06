@@ -1,0 +1,26 @@
+
+export {default as airbnb} from "./airbnb.png?url";
+export {default as bill} from "./bill.png?url";
+export {default as binance} from "./binance.png?url";
+export {default as card} from "./card.png?url";
+export {default as coinbase} from "./coinbase.png?url";
+export {default as dropbox} from "./dropbox.png?url";
+export {default as logo} from "./logo.svg?url";
+export {default as quotes} from "./quotes.svg?url";
+export {default as robot} from "./robot.png?url";
+export {default as send} from "./Send.svg?url";
+export {default as shield} from "./Shield.svg?url";
+export {default as star} from "./Star.svg?url";
+export {default as menu} from "./menu.svg?url";
+export {default as close} from "./close.svg?url";
+export {default as google} from "./google.svg?url";
+export {default as apple} from "./apple.svg?url";
+export {default as arrowUp} from "./arrow-up.svg?url";
+export {default as discount} from "./Discount.svg?url";
+export {default as facebook} from "./facebook.svg?url";
+export {default as instagram} from "./instagram.svg?url";
+export {default as linkedin} from "./linkedin.svg?url";
+export {default as twitter} from "./twitter.svg?url";
+export {default as people01} from "./people01.png?url";
+export {default as people02} from "./people02.png?url";
+export {default as people03} from "./people03.png?url";

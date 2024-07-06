@@ -1,0 +1,42 @@
+---
+import styles from "../style"
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "../components/index.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Hoobank</title>
+	</head>
+	<body>
+		<div class="bg-primary w-full overflow-hidden">
+			<div class={`${styles.paddingX} ${styles.flexCenter}`} >
+				<div class={`${styles.boxWidth}`}>
+					<Navbar client:load/>
+				</div>
+			</div>
+
+			<div class={`bg-primary ${styles.flexStart}`}>
+				<div class={`${styles.boxWidth}`}>
+					<Hero/>
+				</div>
+			</div>
+
+			<div class={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+				<div class={`${styles.boxWidth}`}>
+					<Stats/>
+					<Business/>
+					<Billing/>
+					<CardDeal/>
+					<Testimonials/>
+					<Clients/>
+					<CTA/>
+					<Footer/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
